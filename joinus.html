@@ -42,6 +42,7 @@
             {
                 color : black ;
                 background-color : white ;
+                transition : 0.3s ;
             }
         </style>
        <head>
@@ -71,5 +72,28 @@
           </div>
          </div>
          <p class="header">Guardian</p>
+         <form>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other  
+          </form> 
+
+
+<br><br><br>
+          <form action="/action_page.php" method="get">
+            <input type="checkbox" name="lang" value="Html"> I know HTML<br>
+            <input type="checkbox" name="lang" value="CSS" checked> I know CSS<br>
+            <input type="checkbox" name="lang" value="Django" > I know Django<br>
+            <input type="checkbox" name="lang" value="Python" > I know Python<br>
+            <input type="checkbox" name="lang" value="JavaScript" > I know JavaScript<br>
+            <input type="checkbox" name="lang" value="Ruby" > I know Ruby<br>
+            <input type="submit" value="Submit">
+          </form>
+          
+
+          <div class="foot">
+                <footer>Copyright &copy; Yourname</footer>
+                
+           </div>
         </body>
     </html>
